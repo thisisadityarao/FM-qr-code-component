@@ -11,18 +11,33 @@
 img {
   display: block;
   max-width: 100%;
+  border-radius: 14px;
 }
 
 body {
-  margin: 0;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: hsl(212, 45%, 89%);
 }
 
-section {
+.qr-wrapper {
   background-color: hsl(0, 0%, 100%);
+  margin: 3rem auto;
+  padding: 16px;
+  border-radius: 26px;
+  max-width: 375px;
+}
+
+.qr-info {
+  padding: 30px;
+}
+
+h2,
+p {
+  text-align: center;
 }
 
 h2 {
@@ -33,4 +48,5 @@ h2 {
 p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+  margin-top: 16px;
 }
